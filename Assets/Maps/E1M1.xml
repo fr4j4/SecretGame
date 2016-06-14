@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<info name="E1M1" version="1.0" description="Primer Mapa de testeo para SecretGame" author="Francisco Gonzalez" creationDate="17-01-2016" modDate="17-01-2016"/>
+
+	<players>
+		<player id="player_0" name="P1" health="100" posX="0" posY="0" posZ="0" camera="fps" >
+			<inventory>
+				<slot id="item_0" itemId="item_0"/>
+				<slot id="item_1" itemId="item_1"/>
+				<slot id="item_2" itemId="item_2"/>
+				<slot id="item_3" itemId="item_3"/>
+			</inventory>
+		</player>
+	</players>
+
+	<customTextures>
+		<texture id="c_tex_0" 	name="Madera" 	fileName="wood_1.png" width="40" height="40"/>
+		<texture id="c_tex_1" 	name="Metal"	fileName="1.png" width="40" height="40"/>
+		<texture id="c_tex_2" 	name="Piedra" 	fileName="2.png" width="40" height="40"/>
+		<texture id="c_tex_3" 	name="Hierba" 	fileName="3.png" width="40" height="40"/>
+	</customTextures>
+	
+	<objects>
+		<object id="obj_0" name="Caja pequeña" weight="" pickeable="0" src=""/>
+	</objects>
+
+	<items>
+		<item id="item_0" name="Espada simple" weight="5.0" slotWidth="1" slotHeight="3"/>
+		<item id="item_1" name="Escudo simple" weight="4.5" slotWidth="2" slotHeight="2"/>
+		<item id="item_2" name="poción de vida" weight="0.0" slotWidth="1" slotHeight="1"/>
+		<item id="item_3" name="poción de maná" weight="0.0" slotWidth="1" slotHeight="1"/>
+	</items>
+	
+	<map>
+		<cell width="1" height="1" posX="0" posY="0" posZ="0" topTex="none" botTex="c_tex_0" frontTex="none" backTex="none" leftTex="c_tex_0" rightTex="c_tex_0">
+			<object id="obj_0"/>
+		</cell>
+		<cell width="1" height="1" posX="1" posY="0" posZ="0" topTex="none" botTex="c_tex_0" frontTex="none" backTex="none" leftTex="c_tex_0" rightTex="c_tex_0">
+		</cell>
+	</map>
+</root>

@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 050a6413e14a8b14ea7677125702923d
+timeCreated: 1461920100
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - mapGameObjects: {instanceID: 0}
+  - info_text: {instanceID: 0}
+  - wood: {fileID: 2100000, guid: b65ab4e4d4d3a0f4293bd91902b21767, type: 2}
+  - ground: {fileID: 2100000, guid: fb131518523c40842a8e60777e185c68, type: 2}
+  - brick: {fileID: 2100000, guid: dd6fab4abc6645d4f93465f361da6c5e, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
